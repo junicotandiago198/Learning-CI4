@@ -10,3 +10,72 @@ CRITICAL - 2022-03-18 11:21:06 --> The framework needs the following extension(s
 #2 D:\Ci4\belajar_ci_4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
 #3 D:\Ci4\belajar_ci_4\spark(45): require('D:\\Ci4\\belajar_...')
 #4 {main}
+CRITICAL - 2022-03-18 10:54:46 --> Class name must be a valid object or a string
+#0 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 D:\Ci4\belajar_ci_4\app\ThirdParty\myth-auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 D:\Ci4\belajar_ci_4\system\Common.php(929): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 D:\Ci4\belajar_ci_4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(195): service('activator')
+#6 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ci4\belajar_ci_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Ci4\belajar_ci_4\system\Commands\Server\rewrite.php(43): require_once('D:\\Ci4\\belajar_...')
+#11 {main}
+CRITICAL - 2022-03-18 10:58:43 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\Ci4\belajar_ci_4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Ci4\\belajar_...')
+#1 D:\Ci4\belajar_ci_4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Contr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Contr...')
+#3 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(797): class_exists('\\Myth\\Auth\\Cont...', true)
+#4 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ci4\belajar_ci_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Ci4\belajar_ci_4\system\Commands\Server\rewrite.php(43): require_once('D:\\Ci4\\belajar_...')
+#8 {main}
+CRITICAL - 2022-03-18 10:59:55 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\Ci4\belajar_ci_4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Ci4\\belajar_...')
+#1 D:\Ci4\belajar_ci_4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Contr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Contr...')
+#3 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(797): class_exists('\\Myth\\Auth\\Cont...', true)
+#4 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ci4\belajar_ci_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Ci4\belajar_ci_4\system\Commands\Server\rewrite.php(43): require_once('D:\\Ci4\\belajar_...')
+#8 {main}
+CRITICAL - 2022-03-18 11:00:58 --> Undefined property: Config\App::$indexPage
+#0 D:\Ci4\belajar_ci_4\system\Helpers\url_helper.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Ci4\\belajar_...', 51)
+#1 D:\Ci4\belajar_ci_4\system\Helpers\url_helper.php(87): _get_uri('/', Object(Config\App))
+#2 D:\Ci4\belajar_ci_4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(115): site_url('/')
+#3 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->logout()
+#4 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ci4\belajar_ci_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Ci4\belajar_ci_4\system\Commands\Server\rewrite.php(43): require_once('D:\\Ci4\\belajar_...')
+#8 {main}
+CRITICAL - 2022-03-18 11:01:49 --> Class name must be a valid object or a string
+#0 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 D:\Ci4\belajar_ci_4\app\ThirdParty\myth-auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 D:\Ci4\belajar_ci_4\system\Common.php(929): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 D:\Ci4\belajar_ci_4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(426): service('activator')
+#6 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#7 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ci4\belajar_ci_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Ci4\belajar_ci_4\system\Commands\Server\rewrite.php(43): require_once('D:\\Ci4\\belajar_...')
+#11 {main}
+CRITICAL - 2022-03-18 11:09:53 --> Class name must be a valid object or a string
+#0 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 D:\Ci4\belajar_ci_4\app\ThirdParty\myth-auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 D:\Ci4\belajar_ci_4\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 D:\Ci4\belajar_ci_4\system\Common.php(929): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 D:\Ci4\belajar_ci_4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(426): service('activator')
+#6 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#7 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ci4\belajar_ci_4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Ci4\belajar_ci_4\system\Commands\Server\rewrite.php(43): require_once('D:\\Ci4\\belajar_...')
+#11 {main}
