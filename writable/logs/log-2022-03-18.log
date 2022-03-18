@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-18 11:20:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Ci4\belajar_ci_4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Ci4\belajar_ci_4\spark(45): require('D:\\Ci4\\belajar_...')
+#4 {main}
+CRITICAL - 2022-03-18 11:21:06 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\Ci4\belajar_ci_4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Ci4\belajar_ci_4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Ci4\belajar_ci_4\spark(45): require('D:\\Ci4\\belajar_...')
+#4 {main}
